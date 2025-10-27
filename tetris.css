@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+
+#board {
+    width: 412px;
+    height: 577px;
+
+    background-color: black;
+    border: 6px solid rgb(255, 51, 0);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tiles {
+    width: 38px;
+    height: 38px;
+
+    background-color: black;
+    border: 2px solid white;
+
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
